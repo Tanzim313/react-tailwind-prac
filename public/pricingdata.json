@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "price": 9.99,
+    "currency": "USD",
+    "features": ["1 Website", "10 GB Storage", "Basic Support"],
+    "duration": "monthly"
+  },
+  {
+    "id": 2,
+    "name": "Standard Plan",
+    "price": 19.99,
+    "currency": "USD",
+    "features": ["5 Websites", "50 GB Storage", "Priority Support"],
+    "duration": "monthly"
+  },
+  {
+    "id": 3,
+    "name": "Premium Plan",
+    "price": 29.99,
+    "currency": "USD",
+    "features": ["Unlimited Websites", "200 GB Storage", "24/7 Support"],
+    "duration": "monthly"
+  },
+  {
+    "id": 4,
+    "name": "Basic Plan",
+    "price": 99.99,
+    "currency": "USD",
+    "features": ["1 Website", "10 GB Storage", "Basic Support"],
+    "duration": "yearly"
+  },
+  {
+    "id": 5,
+    "name": "Student Plan",
+    "price": 4.99,
+    "currency": "USD",
+    "features": ["1 Website", "5 GB Storage", "Community Support"],
+    "duration": "monthly"
+  },
+  {
+    "id": 6,
+    "name": "Business Plan",
+    "price": 49.99,
+    "currency": "USD",
+    "features": ["10 Websites", "500 GB Storage", "Dedicated Manager"],
+    "duration": "monthly"
+  },
+  {
+    "id": 7,
+    "name": "Startup Plan",
+    "price": 14.99,
+    "currency": "USD",
+    "features": ["3 Websites", "25 GB Storage", "Email Support"],
+    "duration": "monthly"
+  },
+  {
+    "id": 8,
+    "name": "Enterprise Plan",
+    "price": 199.99,
+    "currency": "USD",
+    "features": ["Unlimited Everything", "1 TB Storage", "24/7 Premium Support"],
+    "duration": "monthly"
+  },
+  {
+    "id": 9,
+    "name": "Lifetime Plan",
+    "price": 499.99,
+    "currency": "USD",
+    "features": ["Lifetime Access", "Unlimited Storage", "All Future Updates"],
+    "duration": "one-time"
+  },
+  {
+    "id": 10,
+    "name": "Trial Plan",
+    "price": 0.00,
+    "currency": "USD",
+    "features": ["1 Website", "1 GB Storage", "Limited Support"],
+    "duration": "7-day trial"
+  }
+]

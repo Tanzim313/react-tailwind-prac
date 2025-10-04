@@ -60,14 +60,14 @@ const Navbar = () => {
                         }
 
 
-                    <ul className={`md:hidden absolute mt-5 ml-1 duration-1000  ${open? 'top-12': '-top-60'} `}>
+                    <ul className={`md:hidden absolute mt-5 ml-1 duration-800  ${open? 'top-12': '-top-60'} `}>
                     {
                         links
                     }
                 </ul>
                     
 
-                    <h3>my Navbar</h3>
+                    <h3 className="hidden md:flex">my Navbar</h3>
                 </span>
 
 
