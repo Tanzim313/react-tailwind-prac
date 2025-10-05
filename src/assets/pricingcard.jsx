@@ -1,25 +1,49 @@
 import React from "react";
+import { SquareCheckBig } from 'lucide-react';
+
 
 const Pricingcard = ({pricing}) =>{
-        console.log(pricing);
+        
+    const {name,price,currency,features} = pricing;
         return(
-           <div className="">
-             <div className="p-4 rounded-md min-w-[300px] h-[300px] bg-amber-500 text-black shadow flex flex-col justify-center">
-                
-                <div>
-                    <h1 className="text-4xl font-bold">{pricing.name}</h1>
-                    <p className="text-white text-xl font-bold bg-amber-600 rounded-md p-2 mt-2 ">{pricing.price} {pricing.currency}</p>
-                </div>
-
-                <div className="mt-3 ">
-                    <p className="text-xl mt-2 font-semibold">{pricing.features[0]}</p>
-                    <p className="text-xl mt-2 font-semibold">{pricing.features[1]}</p>
-                    <p className="text-xl mt-2 font-semibold">{pricing.features[2]}</p>
-                </div>
-                
-            </div>
-           
-           </div>
+           <div className="card  shadow border-2">
+  <div className="card-body">
+    <span className="badge badge-xs badge-warning">Most Popular</span>
+    <div className="flex justify-between">
+      <h2 className="text-3xl font-bold">{name}</h2>
+      <span className="text-xl">${price}/mo</span>
+    </div>
+    <ul className="mt-6 flex flex-col gap-2 text-xs">
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+        <span>High-resolution image generation</span>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+        <span>Customizable style templates</span>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+        <span>Batch processing capabilities</span>
+      </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+        <span>AI-driven image enhancements</span>
+      </li>
+      <li className="opacity-50">
+        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+        <span className="line-through">Seamless cloud integration</span>
+      </li>
+      <li className="opacity-50">
+        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+        <span className="line-through">Real-time collaboration tools</span>
+      </li>
+    </ul>
+    <div className="mt-6">
+      <button className="btn btn-primary btn-block">Subscribe</button>
+    </div>
+  </div>
+</div>
         )
 };
  

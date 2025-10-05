@@ -2,6 +2,7 @@ import Daisyui from './assets/daisyuinav'
 import Navbar from './assets/navbar'
 import Pdata from './assets/pricingdata'
 import './App.css'
+import ResultChart from './assets/resultChart'
 import { Suspense } from 'react';
 
 
@@ -14,6 +15,8 @@ function App() {
        <Suspense>
                 <Pdata pricingPromise={pricingPromise}></Pdata>
        </Suspense>
+
+       <ResultChart></ResultChart>
        
     </div>
   )

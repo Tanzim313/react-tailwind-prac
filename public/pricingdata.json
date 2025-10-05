@@ -78,5 +78,21 @@
     "currency": "USD",
     "features": ["1 Website", "1 GB Storage", "Limited Support"],
     "duration": "7-day trial"
+  },
+  {
+    "id": 11,
+    "name": "Trial Plan",
+    "price": 0.00,
+    "currency": "USD",
+    "features": ["1 Website", "1 GB Storage", "Limited Support"],
+    "duration": "7-day trial"
+  },
+  {
+    "id": 12,
+    "name": "Trial Plan",
+    "price": 0.00,
+    "currency": "USD",
+    "features": ["1 Website", "1 GB Storage", "Limited Support"],
+    "duration": "7-day trial"
   }
 ]
